@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        body {background-color: #B4E4FF;}
+        .container {
+            text-align: center;
+            margin-top: 200px;
+        }
+        .container h2 {
+            color: black;
+            font-size: 45px;
+            
+        }
+        .button-container {
+            padding: 10px 24px;
+            margin: 15px;
+        }
+        .button-container .btn {
+            background-color: #e7e7e7;
+            color: black;
+            border-radius: 8px;
+            padding: 10px 24px;
+            margin: 5px;
+        }
+        #value{
+            font-size: 40px;
+        }
+        .button-container .decrease {
+            background-color: #F08080;
+        }
+        .button-container .decrease:hover {
+            background-color: #CD5C5C
+        }
+        .button-container .increase {
+            background-color: #98FB98;
+        }  
+        .button-container .increase:hover {
+            background-color: #90EE90;
+        }
+        .button-container .reset:hover{
+            background-color: gray;
+        }
+      </style>
+    <body>
+        <main>
+            <div class="container">
+                <h2>
+                    Counter
+                </h2>
+                <span id="value">0</span>
+                <div class="button-container">
+                    <button class="btn decrease">Decrease</button>
+                    <button class="btn reset">Reset</button>
+                    <button class="btn increase">Increase</button>
+                </div>
+            </div>
+        </main>
+        <script src="app.js"></script>
+    </body>
+
